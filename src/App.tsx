@@ -5,7 +5,6 @@ import React, { Suspense, useEffect, useState } from 'react'
 import { ReactQueryDevtools } from 'react-query-devtools'
 import { useDispatch } from 'react-redux'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-
 import HospitalRun from './HospitalRun'
 import { TitleProvider } from './page-header/title/TitleContext'
 import { remoteDb } from './shared/config/pouchdb'
